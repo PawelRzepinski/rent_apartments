@@ -1,0 +1,101 @@
+.banner {
+    background-image: url(../../img/gdansk.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2F545A;
+    opacity: 5%;
+    height: 1130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner__title {
+    font-size: 65px;
+    font-family: $fontSecond;
+    color: $colorTextWhite;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgba(220,196,186, 0.4);
+    padding: 30px;
+
+    p {
+        text-align: center;
+        font-size: 14px;
+        color: $colorTextWhite;
+        margin-bottom: 30px;
+    }
+}
+
+.search__form {
+    display: flex;
+}
+
+.form__input {
+    width: 320px;
+    padding: 30px;
+    border: none;
+}
+
+.form__input:focus{
+    outline: 0;
+}
+
+.input--arrival {
+    border-radius: 5px 0 0 5px;
+}
+
+.input--button {
+    border-radius: 0 5px 5px 0;
+    background-color: #C49C97;
+    color: $colorTextWhite;
+    cursor: pointer;
+}
+
+.banner__scroll {
+    position: absolute;
+    bottom: -250px;
+    left: 0;
+    width: 230px;
+    margin-top: 100px;
+    font-size: 13px;
+    color: $colorFirst;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    p{
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+
+        i{
+            margin-right: 10px;
+        }
+    }
+}
+
+@keyframes bounce {
+    0%{
+        transform: rotate(270deg);
+    }
+    50% {
+        transform: translate(0, 50px) rotate(270deg);
+
+    }
+    100% {
+        transform: translate(0, 0) rotate(270deg);
+
+    }
+}

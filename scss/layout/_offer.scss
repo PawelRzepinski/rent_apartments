@@ -1,0 +1,101 @@
+.offer__textContent {
+    position: relative;
+}
+
+.textContent__title{
+    color: $colorSecond;
+    font-size: 55px;
+    font-family: $fontSecond;
+    line-height: 76px;
+}
+
+.title--offer {
+    color: rgba(47,84,90, 0.6);
+    text-align: start;
+    margin: 50px 0;
+}
+
+.textContent__text {
+    position: relative;
+    margin: 50px 0 80px 150px;
+    line-height: 35px;
+}
+
+.textContent__text:before{
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -110px;
+    border-bottom: 2px solid $colorFirst;
+    width: 80px;
+}
+
+.textContent__numbers {
+    position: absolute;
+    bottom: -240px;
+    left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $fontSecond;
+    width: 150px;
+    border: 1px solid black;
+    padding: 30px 15px;
+    margin: 20px;
+}
+
+.label__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: $colorFirst;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #483836;
+}
+
+.label__text {
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+.offer__imgContent{
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+.imgContent__img {
+    border: 4px solid white;
+    box-shadow: 0px 3px 36px 0px rgba(0,0,0,0.16);
+}
+
+.img--apartment {
+    position: absolute;
+    top: -80px;
+    right: 0;
+    background-image: url(../../img/apartment-ceiling-chairs-1571460.png);
+    background-position: center;
+    width: 70%;
+    height: 630px;
+}
+
+.img--family {
+    position: absolute;
+    bottom: -170px;
+    left: 50px;
+    background-image: url(../../img/beach-casual-female-556960.png);
+    background-position: center;
+    z-index: 1;
+    width: 450px;
+    height: 320px;
+}

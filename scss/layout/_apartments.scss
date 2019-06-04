@@ -1,0 +1,32 @@
+.apartments {
+    height: 1000px;
+    background: linear-gradient(to right, rgba(47,84,90,0.08) 0%, rgba(47,84,90,0.08) 20%, rgba(45,80,86,0.08) 47%, rgba(9,17,18,0.08) 80%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%);
+}
+
+.title--apartments {
+    margin-top: 200px;
+    color: $colorSecond;
+    opacity: 60%;
+}
+
+.apartments__title {
+    position: relative;
+    font-size: 55px;
+    font-family: $fontSecond;
+    color: $colorSecond;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.apartments__title:before{
+    position: absolute;
+    left: calc(50% - 40px);
+    bottom: -80px;
+    content: "";
+    border-bottom: 3px solid $colorFirst;
+    width: 80px;
+}
+
+.apartments__slider {
+    margin-top: 80px;
+}

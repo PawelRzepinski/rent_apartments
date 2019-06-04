@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $fontMain;
+}
+
+.row--noMargin {
+    margin: 0;
+}
+
+
+
+
+// global
+
+.section__title{
+    text-align: center;
+    color: $colorFirst;
+    opacity: 0.6;
+}
