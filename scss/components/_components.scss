@@ -1,0 +1,16 @@
+.button {
+    display: flex;
+    align-items: center;
+    border: 1px solid $colorButton;
+    color: $colorButton;
+    border-radius: 5px;
+    margin-left: 0;
+    padding: 3px 10px;
+    background: none;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    i {
+        margin-left: 10px;
+    }
+}

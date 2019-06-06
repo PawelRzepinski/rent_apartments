@@ -1,9 +1,9 @@
 .apartments {
-    height: 1000px;
+    height: 1100px;
     background: linear-gradient(to right, rgba(47,84,90,0.08) 0%, rgba(47,84,90,0.08) 20%, rgba(45,80,86,0.08) 47%, rgba(9,17,18,0.08) 80%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%);
 }
 
-.title--apartments {
+.name--apartments {
     margin-top: 200px;
     color: $colorSecond;
     opacity: 60%;
@@ -29,4 +29,33 @@
 
 .apartments__slider {
     margin-top: 80px;
+}
+
+.button--apartments {
+    margin: 50px auto;
+}
+
+.item__showMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    border: 1px solid $colorButton;
+    color: white;
+    background-color: $colorButton;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+
+    p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        i {
+            margin-left: 10px;
+        }
+    }
 }

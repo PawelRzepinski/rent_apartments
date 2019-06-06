@@ -1,18 +1,10 @@
-.offer__textContent {
-    position: relative;
-}
-
-.textContent__title{
-    color: $colorSecond;
-    font-size: 55px;
-    font-family: $fontSecond;
-    line-height: 76px;
-}
-
-.title--offer {
-    color: rgba(47,84,90, 0.6);
+.name--offer {
     text-align: start;
     margin: 50px 0;
+}
+
+.offer__textContent {
+    position: relative;
 }
 
 .textContent__text {

@@ -17,8 +17,16 @@ body {
 
 // global
 
-.section__title{
+.section__name{
     text-align: center;
+    text-transform: uppercase;
     color: $colorFirst;
     opacity: 0.6;
+}
+
+.section__title {
+    color: $colorSecond;
+    font-family: $fontSecond;
+    font-size: 55px;
+    line-height: 76px;
 }
